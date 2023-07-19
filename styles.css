@@ -5,6 +5,7 @@
     --red: #9e2a2b;
     --red-dark: #540b0e;
     --bg-nav: #1b1b1e;
+    --bg-dark-light: #252529;
 
     --txt-dark: #1b1b1e;
     --text-gold: #e09f3e;
@@ -42,4 +43,24 @@
 .nav-link {
     color: var(--text-white);
     border-radius: 10px;
+}
+
+/* Section logo */
+
+#logo{
+    height: 15rem;
+    width: 100%;
+    margin: auto;
+    background-color: var(--bg-dark-light);
+}
+.logo-container{
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 15rem;
+    filter: drop-shadow(1px 1px 1px rgba(224, 159, 62, 0.45));
 }
